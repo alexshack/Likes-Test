@@ -196,7 +196,7 @@ class Post_Likes_Table_List_Table extends WP_List_Table {
 			'post_status'    => 'publish',
 			'posts_per_page'	=> -1,
 			'orderby'			=> 'ID',
-			'order'				=> 'ASC',
+			'order'				=> 'DESC',
 			'suppress_filters' => true,
 		));
 		foreach ($posts as $post) {
