@@ -12,7 +12,7 @@
           </div>
           <div class="article__content">
             <h2 class="article__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <p class="article__description"><?php the_excerpt(); ?></p>
+            <p class="article__description"><?= get_the_excerpt(); ?></p>
             <div class="article__footer">
               <div class="article__author">
                 <span>Автор: </span>
