@@ -104,7 +104,10 @@ a {
 	align-self: stretch;
 	@media (min-width: 641px) {
 		padding: 30px;
-	}	
+	}
+	@media (min-width: 1281px) {
+		flex-grow: 1;
+	}
 }
 
 .article {
